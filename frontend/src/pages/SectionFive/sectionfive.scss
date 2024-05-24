@@ -1,0 +1,30 @@
+.section_title{
+    p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+ 
+}
+.section-cards-first{
+    margin: 20px 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        width: 400px;
+    }
+    p{
+        margin-left: 15px;
+    }
+    h3{
+        margin-left: 15px;
+        margin: 15px 15px;
+    }
+    .july{
+        margin-top: 15px;
+    }
+}
+.section-cards{
+    display: flex;
+  }

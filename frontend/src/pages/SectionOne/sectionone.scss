@@ -1,0 +1,33 @@
+.section_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+
+    .section{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-main{
+        text-align: center;
+    }
+    .tasty{
+        color: white;
+        font-size: 36px;
+    }
+    .buttons button{
+        border: 2px solid white;
+        color: white;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .buttons button:hover{
+        background-color: white;
+        color: black;
+    }
+}

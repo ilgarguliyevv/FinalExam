@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: gray;
+    height: 56px;
+    top: 0;
+    position: sticky;
+    .header-main{
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .header-location{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+    }
+}

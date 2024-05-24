@@ -1,0 +1,60 @@
+#footer{
+    background-color: gray;
+    height: 40vh;
+    .footer-all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .footer-first{
+        h1{
+            // margin-top: 30px;
+            color: white;
+        }
+        p{
+            width: 200px;
+            margin-top: 40px;
+            color: white;
+        }
+    }
+    .footer-second{
+        h1{
+            color: white;
+            margin-top: 50px
+        }
+        p{
+            margin-top: 10px;
+            color: white;
+        }
+    }
+    .footer-third{
+        h1{
+            color: white;
+        }
+        p{
+            margin-top: 15px;
+            color: white;
+            width: 200px;
+        }
+    }
+    .footer-four{
+        h1{
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            width: 200px;
+            // margin-top: 30px;
+            color: white;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+        }
+    }
+}

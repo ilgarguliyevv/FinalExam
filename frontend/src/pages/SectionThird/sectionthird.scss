@@ -1,0 +1,75 @@
+#menu {
+    height: 100vh;
+    margin-top: 10%;
+    .food {
+      text-align: center;
+    }
+  
+    .Menyu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 70px;
+    }
+  
+    .menu-main {
+      width: 115px;
+      height: 73px;
+      background-color: #ffb400;
+      color: black;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button {
+      width: 115px;
+      height: 73px;
+      background-color: white;
+      color: gray;
+      border: 1px solid whitesmoke;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .our-menu {
+      margin-bottom: 10px;
+      color: gray;
+    }
+    .menu-card {
+      max-width: 1200px;
+      margin: 50px auto;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .menu-card-first {
+      width: 590px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 20px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    .card-oop {
+      display: flex;
+    }
+    .card-about {
+      display: flex;
+      gap: 20px;
+    }
+    .buttons {
+      display: flex;
+      gap: 5px;
+    }
+    .price {
+      margin-right: 10px;
+    }
+  }
